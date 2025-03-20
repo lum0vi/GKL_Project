@@ -57,3 +57,10 @@ func main() {
 	fmt.Printf("value: %v\n", val)
 	fmt.Printf("value: %v\n", val2)
 }
+
+func ovwen() {
+	operation := func(val, val2 int) error {
+		fmt.Println(val, val2)
+		return nil
+	}
+}
